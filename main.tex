@@ -131,7 +131,7 @@
 %% other information printed in the page headers. This command allows
 %% the author to define a more concise list
 %% of authors' names for this purpose.
-\renewcommand{\shortauthors}{Trovato and Tobin, et al.}
+\renewcommand{\shortauthors}{}
 
 %%
 %% The abstract is a short summary of the work to be presented in the
@@ -206,22 +206,28 @@ localization, horizontal scaling, vertical scaling, IoT}
 \maketitle
 
 \section{Introduction}
-ACM's consolidated article template, introduced in 2017, provides a
-consistent \LaTeX\ style for use across ACM publications, and
-incorporates accessibility and metadata-extraction functionality
-necessary for future Digital Library endeavors. Numerous ACM and
-SIG-specific \LaTeX\ templates have been examined, and their unique
-features incorporated into this single new template.
+This section contains an introduction on cloud computing
+in general and clarifies why scalability – among other
+concepts – plays such an important role. Also provide examples
+of scalable cloud-based systems (IaaS, PaaS, etc.) \\
+Cloud computing is sharing software and hardware resources,
+location independent, via the internet. Examples of cloud-based
+systems are Server Scalability available by Infrastructure as a
+Service (IaaS), Scaling of the Network with the need to scale
+by consolidated data centers that host several VMs per physical
+machine (often achieved by overprovisioning resources),
+Scaling of the Platform by Platform as a Service (PaaS) offer
+ready to use execution environments and convenient services
+for applications.
 
-If you are new to publishing with ACM, this document is a valuable
-guide to the process of preparing your work for publication. If you
-have published with ACM before, this document provides insight and
-instruction into more recent changes to the article template.
+\subsection{Related Work}
+There are many papers related to scalability, cloud computing
+and IoT, but there are only a few papers that combine all three
+topics. Because of the growing devices connected to clouds
+and the emerging IoT sector the paper is an attempt to provide
+solutions to current problems.
 
-The ``\verb|acmart|'' document class can be used to prepare articles
-for any ACM publication --- conference or journal, and for any stage
-of publication, from review to final ``camera-ready'' copy, to the
-author's own version, with {\itshape very} few changes to the source.
+
 
 \section{Template Overview}
 As noted in the introduction, the ``\verb|acmart|'' document class can
